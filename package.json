@@ -1,0 +1,16 @@
+{
+  "name": "jquery-k-smooth-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.ksmoothscroll.js",
+  "scripts": {
+   "build": "uglifyjs jquery.ksmoothscroll.js -m -c -o jquery.ksmoothscroll.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
